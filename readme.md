@@ -1,14 +1,15 @@
+
 # Docker
 
 #### Build Image
 
-> docker build -t <image-name>:<tag> .
+> docker build -t &lt;image-name&gt;:&lt;tag&gt; .
 ```sh
 $ docker build -t myapp:1 .
 ```
 
 #### Run Container
-> docker run --name <container-name> -p <host-port>:<container-port> <image-name>:<tag>
+> docker run --name <container-name> -p &lt;host-port&gt;:&lt;container-port&gt; <image-name>:<tag>
 ```sh
 $ docker run --name cont-name -p 8080:80 myapp:1
 ```
