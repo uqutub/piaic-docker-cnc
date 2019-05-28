@@ -1,1 +1,3 @@
-### docker run -it ubuntu /bin/bash
+```sh
+$ docker run -it ubuntu /bin/bash
+```
